@@ -18,7 +18,7 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: black;
+    background-color: rgb(7, 7, 7);
     color: white;
 }
 
@@ -75,14 +75,14 @@ nav a.active{
         border-bottom: 3px solid #b74b4b;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
-        background-color: #161616;
-        border-top: 0.1rem solid rgba(0,0,0,0.1);
+        background-color: #080808;
+        border-top: 0.1rem solid rgba(184, 41, 119, 0.1);
     }
 
     nav.active{
         display: block;
     }
-
+ 
     nav a{
         display: block;
         font-size: 2rem;
@@ -155,7 +155,7 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #b74b4b;
+    border: 0.2rem solid #b74b4f;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
@@ -203,13 +203,13 @@ span{
 
 .typing-text span::before{
     content: "Manual Testing";
-    color: #b74b4b;
+    color: #f20e0e;
     animation: words 20s infinite;
 }
 
 .typing-text span::after{
     content: "";
-    background-color: black;
+    background-color: black(16, 15, 16);
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
@@ -220,7 +220,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #b74b4b;
+        border-left: 3px solid #b7564b;
     }
 }
 
